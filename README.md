@@ -13,11 +13,10 @@ To run this project locally, follow these steps:
 ```bash
 
 # Start (Just follow this 4 steps)
-Git clone https://github.com/princekumar-dev74/Lamp.git
+Git clone https://github.com/princekumar-dev74/chai-website.git
 
 #steps
-1. cd Lamp
-2. cd vite-project
+cd chai-website
 
 # Install dependencies
 npm install
