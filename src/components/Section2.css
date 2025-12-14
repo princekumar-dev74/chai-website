@@ -1,0 +1,95 @@
+.section2 {
+    background: linear-gradient(
+      to bottom,
+      #ffe58b 0%,      
+      #f6d173 25%,     
+      #e2a93a 60%,     
+      #de992d 100%     
+    );
+  
+    min-height: 100vh;       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  0 100px;
+  }
+  .section2-left {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tea-img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    position: absolute;
+
+    border: 10px solid white;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  }
+  
+  .tea1 {
+    transform: rotate(-15deg);
+    top: -350px;
+    left: 20px;
+  }
+  
+  .tea2 {
+    transform: rotate(10deg);
+    top: -280px !important;
+    left: 200px;
+  }
+  
+  .tea3 {
+    transform: rotate(-5deg);
+    top: -70px;
+    left: 180px;
+  }
+  
+  .section2-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .section2-right h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: #6d4c41;
+  }
+  
+  .section2-right .hindi {
+    font-family: 'Noto Serif Devanagari', serif;
+    font-weight: 700;
+    margin: 0 10px; 
+  }
+  
+  .section2-right p {
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #4b2e1e;
+    width: 700px;
+  }
+  
+  .section2-right button {
+    background-color: #6d4c41;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 200px;
+margin-top: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .section2-right button:hover {
+    background-color: #533724;
+    transform: scale(1.05);
+  }
